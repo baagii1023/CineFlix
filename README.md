@@ -1,4 +1,5 @@
 # React + Vite
+This web app was made by Baagii Avirmed. CineFlix is a movie database using React API. 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
