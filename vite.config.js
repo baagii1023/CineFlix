@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/',  // Adjust this as needed
+  base: '/CineFlix/',
   build: {
-    outDir: 'dist' // Change 'CineFlix' to 'dist'
+    outDir: 'dist'
   },
   plugins: [react()],
 })
