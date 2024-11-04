@@ -52,6 +52,7 @@ const PageHome = () => {
             setLoading(false);
         }
     };
+    
 
     return (
         <main className="site-wrapper">
