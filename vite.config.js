@@ -1,12 +1,11 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { APP_FOLDER_NAME } from './src/globals/globals'
 
-
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: `/${APP_FOLDER_NAME}/`, // Ensure this matches the subdirectory on Vercel
+  base: '/',  // Adjust this as needed
   build: {
-    outDir: 'dist'
+    outDir: 'dist' // Change 'CineFlix' to 'dist'
   },
   plugins: [react()],
 })
